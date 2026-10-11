@@ -1,5 +1,5 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Image from 'next/image';
+import styles from './page.module.css';
 
 export default function Home() {
   return (
@@ -15,26 +15,31 @@ export default function Home() {
         />
         <div className={styles.intro}>
           <h1>
-            To get started, edit the{" "}
+            To get started, edit the{' '}
             <code className={styles.code}>page.js</code> file.
           </h1>
+          <Image src="/globe.svg" alt="globe" width={20} height={20} />
+          {/* Intentional formatting error with bad spacing and unformatted code */}
+          <p style={{ margin: '20px', color: 'red' }}>
+            Broken formatting & linting demo
+          </p>
           <p>
-            Looking for a starting point or more instructions? Head over to{" "}
+            Looking for a starting point or more instructions? Head over to{' '}
             <a
               href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
               target="_blank"
               rel="noopener noreferrer"
             >
               Templates
-            </a>{" "}
-            or the{" "}
+            </a>{' '}
+            or the{' '}
             <a
               href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
               target="_blank"
               rel="noopener noreferrer"
             >
               Learning
-            </a>{" "}
+            </a>{' '}
             center.
           </p>
         </div>
