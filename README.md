@@ -1,3 +1,8 @@
+# nextjs-blank
+
+[![CI](https://github.com/Lourenco2497/nextjs-blank/actions/workflows/ci.yml/badge.svg)](https://github.com/Lourenco2497/nextjs-blank/actions/workflows/ci.yml)
+![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
