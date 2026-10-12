@@ -15,8 +15,7 @@ export default function Home() {
         />
         <div className={styles.intro}>
           <h1>
-            To get started, edit the{' '}
-            <code className={styles.code}>page.js</code> file.
+            Hello World!
           </h1>
           <Image src="/globe.svg" alt="globe" width={20} height={20} />
           {/* Intentional formatting error with bad spacing and unformatted code */}

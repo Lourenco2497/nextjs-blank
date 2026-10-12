@@ -16,3 +16,12 @@ test('RootLayout renders children', () => {
   );
   expect(screen.getByTestId('child')).toBeDefined();
 });
+
+test('RootLayout matches snapshot', () => {
+  const { container } = render(
+    <RootLayout>
+      <div>Snapshot Child Content</div>
+    </RootLayout>
+  );
+  expect(container).toMatchSnapshot();
+});
