@@ -26,5 +26,9 @@ export default defineConfig({
   },
   test: {
     environment: 'jsdom',
+    coverage: {
+      provider: 'v8',
+      include: ['src/**/*.js', 'lib/**/*.js'],
+    },
   },
 });
