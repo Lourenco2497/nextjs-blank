@@ -14,9 +14,7 @@ export default function Home() {
           priority
         />
         <div className={styles.intro}>
-          <h1>
-            Hello World!
-          </h1>
+          <h1>Hello World!</h1>
           <Image src="/globe.svg" alt="globe" width={20} height={20} />
           {/* Intentional formatting error with bad spacing and unformatted code */}
           <p style={{ margin: '20px', color: 'red' }}>
